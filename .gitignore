@@ -1,0 +1,22 @@
+# Dataset (not redistributed - see data/README.md)
+data/*
+!data/README.md
+*.h5
+
+# Saved models
+*.keras
+*.tflite
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
